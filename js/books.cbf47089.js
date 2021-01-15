@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["books"],{"4de9":function(e,o,c){"use strict";c.r(o);var t=c("7a23");const n=Object(t["withScopeId"])("data-v-2c421580"),d=n((e,o,c,n,d,a)=>{const s=Object(t["resolveComponent"])("Todo");return Object(t["openBlock"])(),Object(t["createBlock"])("div",null,[Object(t["createVNode"])(s,{msg:"books"})])});var a=c("ebdb"),s=Object(t["defineComponent"])({name:"Books",components:{Todo:a["a"]}});s.render=d,s.__scopeId="data-v-2c421580";o["default"]=s}}]);
+//# sourceMappingURL=books.cbf47089.js.map
