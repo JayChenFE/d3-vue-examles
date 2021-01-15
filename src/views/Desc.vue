@@ -4,13 +4,11 @@
 </template>
 
 <script lang="ts">
-// import { defineComponent } from 'vue'
-// import Todo from '@/components/Todo.vue'
+import { defineComponent } from 'vue'
 
-// export default defineComponent({
-//   name: 'Desc',
-//   components: { Todo }
-// })
+export default defineComponent({
+  name: 'Desc'
+})
 </script>
 
 <style scoped lang="scss">
