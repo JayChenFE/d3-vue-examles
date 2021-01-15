@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["bioInfo"],{4e3:function(e,o,n){"use strict";n.r(o);var t=n("7a23");function c(e,o,n,c,r,a){const b=Object(t["resolveComponent"])("Todo");return Object(t["openBlock"])(),Object(t["createBlock"])("div",null,[Object(t["createVNode"])(b)])}var r=n("ebdb"),a=Object(t["defineComponent"])({name:"BioInfo",components:{Todo:r["a"]}});a.render=c;o["default"]=a}}]);
-//# sourceMappingURL=bioInfo.4a6a5618.js.map
