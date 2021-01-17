@@ -54,7 +54,14 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Books',
     meta: { title: '书籍示例' },
     component: () =>
-      import(/* webpackChunkName: "books" */ '../views/Books.vue')
+      import(/* webpackChunkName: "books" */ '../views/Books.vue'),
+    children: [
+      {
+        path: 'd3-book-pipe',
+        meta: { title: '数据可视化实战-饼图' },
+        component: () => import('../views/books/d3-book/d3-book-pipe.vue')
+      }
+    ]
   }
 ]
 
