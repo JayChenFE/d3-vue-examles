@@ -47,7 +47,14 @@ const routes: Array<RouteRecordRaw> = [
     name: 'bioInfo',
     meta: { title: '生信可视化' },
     component: () =>
-      import(/* webpackChunkName: "bioInfo" */ '../views/BioInfo.vue')
+      import(/* webpackChunkName: "bioInfo" */ '../views/BioInfo.vue'),
+    children: [
+      {
+        path: 'bio-boxplot-basic',
+        meta: { title: '生信-箱线图(基础)' },
+        component: () => import('../views/bioInfo/Bio-boxplot-basic.vue')
+      }
+    ]
   },
   {
     path: '/books',
@@ -59,7 +66,7 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'd3-book-pipe',
         meta: { title: '数据可视化实战-饼图' },
-        component: () => import('../views/books/d3-book/d3-book-pipe.vue')
+        component: () => import('../views/books/d3-book/D3-book-pipe.vue')
       }
     ]
   }
