@@ -53,6 +53,21 @@ const routes: Array<RouteRecordRaw> = [
         path: 'bio-boxplot-basic',
         meta: { title: '生信-箱线图(基础)' },
         component: () => import('../views/bioInfo/Bio-boxplot-basic.vue')
+      },
+      {
+        path: 'bio-boxplot-group',
+        meta: { title: '生信-箱线图(分组)' },
+        component: () => import('../views/bioInfo/Bio-boxplot-group.vue')
+      },
+      {
+        path: 'bio-boxplot-points',
+        meta: { title: '生信-箱线图(数据点)' },
+        component: () => import('../views/bioInfo/Bio-boxplot-points.vue')
+      },
+      {
+        path: 'bio-boxplot-horizontal',
+        meta: { title: '生信-箱线图(横向)' },
+        component: () => import('../views/bioInfo/Bio-boxplot-horizontal.vue')
       }
     ]
   },

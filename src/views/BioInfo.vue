@@ -13,14 +13,26 @@
               基本
             </a-menu-item>
           </router-link>
-          <!-- <router-link to="/books/option2">
-            <a-menu-item key="2">option2</a-menu-item>
-          </router-link> -->
+          <router-link to="/bioInfo/bio-boxplot-group">
+            <a-menu-item key="2">
+              分组
+            </a-menu-item>
+          </router-link>
+          <router-link to="/bioInfo/bio-boxplot-points">
+            <a-menu-item key="3">
+              数据点
+            </a-menu-item>
+          </router-link>
+          <router-link to="/bioInfo/bio-boxplot-horizontal">
+            <a-menu-item key="4">
+            横向
+            </a-menu-item>
+          </router-link>
         </a-sub-menu>
       </a-menu>
     </a-layout-sider>
     <a-layout style="padding: 0 24px 24px">
-       <Breadcrumb></Breadcrumb>
+      <Breadcrumb></Breadcrumb>
       <a-layout-content :style="{ background: '#fff', padding: '24px', margin: 0,height:'280px' }">
         <router-view></router-view>
       </a-layout-content>
