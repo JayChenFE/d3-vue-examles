@@ -60,6 +60,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/bioInfo/Bio-boxplot-group.vue')
       },
       {
+        path: 'bio-boxplot-group2',
+        meta: { title: '生信-箱线图(分组2)' },
+        component: () => import('../views/bioInfo/Bio-boxplot-group2.vue')
+      },
+      {
         path: 'bio-boxplot-points',
         meta: { title: '生信-箱线图(数据点)' },
         component: () => import('../views/bioInfo/Bio-boxplot-points.vue')

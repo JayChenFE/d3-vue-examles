@@ -18,6 +18,11 @@
               分组
             </a-menu-item>
           </router-link>
+           <router-link to="/bioInfo/bio-boxplot-group2">
+            <a-menu-item key="2-2">
+              分组2
+            </a-menu-item>
+          </router-link>
           <router-link to="/bioInfo/bio-boxplot-points">
             <a-menu-item key="3">
               数据点
