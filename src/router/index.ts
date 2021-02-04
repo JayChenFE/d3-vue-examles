@@ -68,6 +68,11 @@ const routes: Array<RouteRecordRaw> = [
         path: 'bio-boxplot-horizontal',
         meta: { title: '生信-箱线图(横向)' },
         component: () => import('../views/bioInfo/Bio-boxplot-horizontal.vue')
+      },
+      {
+        path: 'bio-venn',
+        meta: { title: '生信-韦恩图(基础)' },
+        component: () => import('../views/bioInfo/Bio-venn.vue')
       }
     ]
   },

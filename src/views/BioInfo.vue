@@ -29,6 +29,19 @@
             </a-menu-item>
           </router-link>
         </a-sub-menu>
+        <a-sub-menu key="sub2">
+          <template #title>
+            <span>
+            韦恩图(venn)
+            </span>
+          </template>
+          <router-link to="/bioInfo/bio-venn">
+            <a-menu-item key="5">
+              基本
+            </a-menu-item>
+          </router-link>
+
+        </a-sub-menu>
       </a-menu>
     </a-layout-sider>
     <a-layout style="padding: 0 24px 24px">
